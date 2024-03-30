@@ -1,0 +1,53 @@
+body,
+body * {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+}
+
+html,
+body {
+  align-items: center;
+  background-color: #4040ff;
+  color: #fff;
+  flex-direction: column;
+  font: 400 16px -apple-system, BlinkMacSystemFont, Roboto, system-ui, Helvetica, Arial, sans-serif;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+p {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+a:is(:hover, :focus) {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#links {
+  align-items: center;
+  bottom: .5rem;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+#links div {
+  width: fit-content;
+}
+
+#links a {
+  margin: .5rem;
+}
+
+#links img {
+  overflow: hidden;
+  width: 1.75rem;
+}
+
+#pgp {
+  font-size: .875rem;
+}

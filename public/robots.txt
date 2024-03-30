@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://cdfzo.com/sitemap.xml
