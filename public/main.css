@@ -1,40 +1,26 @@
-body,
-body * {
-  all: unset;
-  box-sizing: border-box;
-  display: flex;
-}
-
-html,
-body {
+html, body {
   align-items: center;
-  background-color: #4040ff;
+  background-color: #000;
   color: #fff;
+  display: flex;
   flex-direction: column;
-  font: 400 16px -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, system-ui, sans-serif;
+  font: 400 17px -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, system-ui, sans-serif;
   height: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0;
   width: 100%;
-}
-
-h1,
-footer {
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: .5rem;
 }
 
 p {
-  padding: 0 1rem;
+  margin: 0 .5rem;
   text-align: center;
 }
 
-a:is(:hover, :focus) {
-  cursor: pointer;
-  text-decoration: underline;
+footer {
+  bottom: .5rem;
+  position: fixed;
 }
 
-img {
+svg {
   width: 1.75rem;
 }
